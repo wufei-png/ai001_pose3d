@@ -1,0 +1,11 @@
+gpu
+render_animation 变成实时显示
+视频过长变慢？
+causal
+--causal: use causal (i.e. asymmetric) convolutions instead of symmetric convolutions. Causal convolutions are suitable for real-time applications because they do not exploit future frames (they only look in the past), but symmetric convolutions result in a better error since they can consider both past and future data. See below for more details. Default: disabled.
+
+parser.add_argument('--indir', dest='inputpath',
+                    help='image-directory', default="")
+用writer：底层调用太多了 
+
+目前COCO keypoint track是人体关键点检测的权威公开比赛之一，COCO数据集中把人体关键点表示为17个关节，分别是鼻子，左右眼，左右耳，左右肩，左右肘，左右腕，左右臀，左右膝，左右脚踝。而人体关键点检测的任务就是从输入的图片中检测到人体及对应的关键点位置。

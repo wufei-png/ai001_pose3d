@@ -1,0 +1,6 @@
+*.log
+*.bin
+*.pth
+*.weights
+*.mp4
+weights/

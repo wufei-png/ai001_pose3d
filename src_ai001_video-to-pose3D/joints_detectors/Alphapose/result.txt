@@ -1,0 +1,68 @@
+ 坤坤的
+ the video is 25.051 f/s
+Loading YOLO model..
+Loading pose model from joints_detectors/Alphapose/models/sppe/duc_se.pth
+Start pose estimation...
+100%|███████████████████████████████████████████████████████████████████████████████| 338/338 [00:32<00:00, 10.26it/s]
+===========================> Rendering remaining images in the queue...
+===========================> If this step takes too long, you can enable the --vis_fast flag to use fast rendering (real-time).
+kpts npz save in  outputs/alpha_pose_kunkun_cut/kunkun_cut.npz
+-------------- load data spends 41.04 seconds
+Loading checkpoint checkpoint\pretrained_h36m_detectron_coco.bin
+-------------- load 3D model spends 0.05 seconds
+Rendering...
+-------------- generate reconstruction 3D data spends 0.02 seconds
+===========================> This video get 338 frames in total.
+  0%|                                                                                         | 0/338 [00:00<?, ?it/s]D:\onedrive\OneDrive - sjtu.edu.cn\大三下\人工智能交互\大作业\video-to-pose3D\common\visualization.py:181: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all axes decorations.
+  fig.tight_layout()
+339it [00:32, 10.27it/s]
+total spend 33.792001 second
+outputs/kunkun_cut.mp4 --- elapsed time: 74.90160850000001 s
+
+数据集的
+the video is 50.0 f/s
+Loading YOLO model..
+Loading pose model from joints_detectors/Alphapose/models/sppe/duc_se.pth
+Start pose estimation...
+100%|█████████████████████████████████████████████████████████████████████████████| 1859/1859 [03:05<00:00, 10.03it/s]
+===========================> Rendering remaining images in the queue...
+===========================> If this step takes too long, you can enable the --vis_fast flag to use fast rendering (real-time).
+kpts npz save in  outputs/alpha_pose_Sitting/Sitting.npz
+-------------- load data spends 193.03 seconds
+Loading checkpoint checkpoint\pretrained_h36m_detectron_coco.bin
+-------------- load 3D model spends 0.05 seconds
+Rendering...
+-------------- generate reconstruction 3D data spends 0.04 seconds
+===========================> This video get 1859 frames in total.
+  0%|                                                                                        | 0/1859 [00:00<?, ?it/s]D:\onedrive\OneDrive - sjtu.edu.cn\大三下\人工智能交互\大作业\video-to-pose3D\common\visualization.py:181: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all axes decorations.
+  fig.tight_layout()
+1860it [05:01,  6.16it/s]
+total spend 315.450807 second
+outputs/Sitting.mp4 --- elapsed time: 508.585947 s
+
+fast
+
+
+
+input_keypoints.shape (338, 17, 2)
+anim_output prediction.shape [[[ 2.15511363e-06 -9.71790723e-06  1.25023305e+00]
+  [ 1.22754797e-01 -8.97856951e-02  1.26657033e+00]
+
+
+
+args.viz_bitrate 30000
+args.viz_output outputs/alpha_pose_kunkun_cut.mp4
+args.viz_limit -1
+args.viz_downsample 1
+args.viz_size 5
+args.viz_skip 0
+render_animation keypoint (338, 17, 2)
+size 5
+len(poses) 1
+index 0
+title Reconstruction
+data [[[ 2.15511363e-06 -9.71790723e-06  1.25023305e+00]
+
+
+azim 70.0
+===========================> This video get 338 frames in total.
